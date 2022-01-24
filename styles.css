@@ -1,0 +1,85 @@
+body {
+  font-family: sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(hatter.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#content {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  width: 930px;
+}
+
+p {
+  text-indent: 25px;
+  text-align: justify;
+}
+
+.frame {
+  width: 390px;
+  float: right;
+  padding: 0px 5px 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(227, 225, 233, 0.7);
+}
+
+.frame img {
+  width: 400px;
+  position: relative;
+  left: -5px;
+  border-bottom: 2px solid black;
+}
+
+h1,
+h2 {
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+p.imgtitle {
+  font-size: 1.1em;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 130%;
+}
+
+table,
+.frame {
+  border: 3px solid green;
+}
+
+table{    
+  border-collapse: collapse;
+  margin-right: 20px;
+  background-color: rgba(227, 225, 233, 0.3);
+}
+#utp{
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+th{
+  background-color: green;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: yellow;
+}
+th,td{  
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+}
